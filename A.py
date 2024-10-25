@@ -4,11 +4,11 @@ import sys
 import subprocess
 from telebot import TeleBot, types
 
-API_TOKEN = "7297986589:AAE825kIF-rnjQcqWwQyHMAwiLAxFnEZ1Gw"
+API_TOKEN = "7819656172:AAFo9XjkRk6LXfVHArkeMn_4uLIzyqzHp10"
 bot = TeleBot(API_TOKEN)
 
 # قائمة معرّفات المسؤولين
-admins = ['6413782426', '871257147']
+admins = ['8143679178', '8143679178']
 
 # مسار المجلد الذي يحتوي على ملفات البوت
 BOT_FOLDER = '.'
