@@ -1355,7 +1355,6 @@ def respond_to_vhk(message):
 
 
 
-import time
 from datetime import datetime, timedelta
 
 # قم بتعريف قاموس لتخزين وقت آخر طلب لكل مستخدم
