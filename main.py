@@ -1335,7 +1335,7 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed KilwaChk BOT !❌
+You are Not Subscribed BOT !❌
 
 Your ID : {message.chat.id}
 Programmer - @dar666787'')
