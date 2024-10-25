@@ -1421,7 +1421,7 @@ def respond_to_vhk(message):
         end_time = time.time()
         execution_time = end_time - start_time
 
-        dec = f'''<b>• Declined ❌
+          dec = f'''<b>• Declined ❌
 
 ϟ Card ->  <code>{cc}</code>
 ϟ Status -> {last}
