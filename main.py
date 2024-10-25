@@ -1426,7 +1426,6 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @dar666787⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
