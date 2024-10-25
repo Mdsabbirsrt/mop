@@ -70,10 +70,10 @@ def start(message):
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 		if BL == 'Free - Not Subscribed':	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - Kilwa", url="https://t.me/Lx0b2")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - dar", url="https://t.me/dar666787")
 			keyboard.add(contact_button)
 			random_number = random.randint(4, 17)
-			photo_url = f'https://t.me/animephotossea/{random_number}'
+			photo_url = f'https://t.me/dar666787/17/{random_number}'
 			bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<b>ϟ Welcome Dear -> {name} ϟ
 ϟ Youre Not Subscribed in Check World Bot ❌
 
@@ -81,11 +81,11 @@ def start(message):
 ϟ Programmer ~ @Lx0b2 </b>''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="ϟ Our Channel ϟ", url="https://t.me/Pythonln")
+		contact_button = types.InlineKeyboardButton(text="ϟ Our Channel ϟ", url="https://t.me/dar666787")
 		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(4, 17)
-		photo_url = f'https://t.me/animephotossea/{random_number}'
+		photo_url = f'https://t.me/dar666787/17/{random_number}'
 		bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<strong>ϟ Welcome -> {name} ϟ
 - Your Subscription is Active ✅
 
@@ -165,13 +165,13 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - Kilwa", url="https://t.me/Lx0b2")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer", url="https://t.me/dar666787")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>• Welcome Dear » {name}
 - Youre Not Subscribed in BOT ❌
 
 • For Show Bot Priced Send /prices
-- Programmer ~ @Lx0b2 - @P_3_Y1 </b>''',reply_markup=keyboard)
+- Programmer ~ @dar666787 - @P_3_Y1 </b>''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
 			json_data = json.load(file)
@@ -180,19 +180,19 @@ def main(message):
 			provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 		except Exception as e:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - Kilwa", url="https://t.me/Lx0b2")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - Kilwa", url="https://t.me/dar666787")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>• Welcome Dear » {name}
 - Youre Not Subscribed in BOT ❌
 
 • For Show Bot Priced Send /prices
-- Programmer ~ @Lx0b2 - @P_3_Y1 </b>''',reply_markup=keyboard)
+- Programmer ~ @dar666787</b>''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
 		required_duration = timedelta(hours=0)
 		if current_time - provided_time > required_duration:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - Kilwa", url="https://t.me/Lx0b2")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - ", url="https://t.me/dar666787")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text='''<b>ϟ Your Subscription has Expired • لاتستطيع استخدام البوت لانه انتهى اشتراكك </b>
 		''',reply_markup=keyboard)
@@ -964,7 +964,7 @@ def menu_callback(call):
                         text=f'''
 <b>- Please Wait Checking Your Cards 💫
 - Gate -> {gate} 💫
-- Programmer -> @Lx0b2 </b>''', 
+- Programmer @dar666787 </b>''', 
                         reply_markup=mes)
 
                     msg = f'''<b>• Approved ✅
@@ -990,7 +990,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص بعد الانتهاء
-        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • @Lx0b2')
+        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • @dar666787')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1130,7 +1130,7 @@ def menu_callbactok(call):
                         text=f'''
 <b>- Please Wait Checking Your Cards 💫
 - Gate -> {gate} 💫
-- Programmer -> @Lx0b2 </b>''', 
+- Programmer -> @dar666787 </b>''', 
                         reply_markup=mes)
                     
                     msg = f'''<b>• Approved ✅
@@ -1142,7 +1142,7 @@ def menu_callbactok(call):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer ->@dar666787⚡</b>'''
                     
                     if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last or 'CVV' in last:
                         live += 1
@@ -1303,7 +1303,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer -> @dar666787⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1325,7 +1325,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @Lx0b2</b>'''
+- Programmer •@dar666787</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1338,7 +1338,7 @@ def respond_to_vhk(message):
 You are Not Subscribed KilwaChk BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @Lx0b2''')
+Programmer - @dar666787'')
 
 
 
@@ -1430,7 +1430,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer -> @dar666787⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1441,7 +1441,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer -> @dar666787⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1462,10 +1462,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed KilwaChk BOT !❌
+You are Not Subscribed  BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @Lx0b2''')
+Programmer -@dar666787''')
 
 
 
@@ -1548,7 +1548,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer -> @dar666787⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1559,7 +1559,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer -> @dar666787⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1580,10 +1580,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed KilwaChk BOT !❌
+You are Not Subscribed  BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @Lx0b2''')
+Programmer - @dar666787''')
 
 
 
@@ -1667,7 +1667,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer -> @dar666787⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1678,7 +1678,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer -> @dar666787⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1689,7 +1689,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @Lx0b2</b>'''
+- Programmer •@dar666787</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1699,10 +1699,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed KilwaChk BOT !❌
+You are Not Subscribed  BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @Lx0b2''')
+Programmer - @dar666787''')
 
 
 
@@ -1833,7 +1833,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer ->@dar666787⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1844,7 +1844,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @Lx0b2⚡</b>'''
+ϟ - Programmer ->@dar666787⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1855,7 +1855,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @Lx0b2</b>'''
+- Programmer • @dar666787</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1865,10 +1865,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed KilwaChk BOT !❌
+You are Not Subscribed  BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @Lx0b2''')
+Programmer - @dar666787''')
 
 
 
@@ -2274,9 +2274,8 @@ def adodre(message):
 - Show Sub's ID's ¦ /sh
 - Stop And Start The Gate's /gate
 ------------------------------------
-• Programmer ¦ @Lx0b2
-• Channel ¦ @Pythonln''')
-
+• Programmer ¦ @dar666787
+• Channel ¦@dar666787''')
 
 
 
@@ -2286,22 +2285,21 @@ def adodre(message):
 	
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.prices') or message.text.lower().startswith('/prices'))
 def respondn_to_vhk(message):
- bot.reply_to(message,'''• اسعار اشتراك البوت - Bot Prices •
-⬅️ بوت فحص كومبو فيزات - Combo CC Checker Bot 🛒👑
+ bot.reply_to(message,'''• ا- Bot Prices •
+⬅️ - Combo CC Checker Bot 🛒👑
 
-- ( 4 بوابات ، 4 Gates ) ⭐️
-- ( فحص يدوي ، فحص كومبو ) ⭐️
-🔠- يوم واحد •💷Day -> 3 ⚡️
-🔠- اسبوع •💷 Week -> 7 ⚡️
-🔢- نصف شهر • 💷Half month -> 10 ⚡️
-🔢- شهر • 💷Month -> 17 ⚡️
+- ( 4 ، 4 Gates ) ⭐️
+🔠-  •💷Day -> 3 ⚡️
+🔠- ا •💷 Week -> 7 ⚡️
+🔢- • 💷Half month -> 10 ⚡️
+🔢- • 💷Month -> 17 ⚡️
 
-• نستقبل جميع انواع الدفع الدولية ✅
+• dar bot ✅
 • We Accept All Payment Methods in World ✅
 • (💴💷🌐👛💀..........🌎🌎)
 
-• For Subscribe & inquiry - للتواصل والاستفسار • 🛩
-🖱👼@Lx0b2👼&👼@P_3_Y1👼''')
+• For Subscribe & inquiry - • 🛩
+🖱@dar666787''')
 
 
 
